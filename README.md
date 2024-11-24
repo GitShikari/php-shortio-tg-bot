@@ -58,8 +58,9 @@ return [
    * Save the provided token
 
 2. Set up the webhook:
-   * Replace `your-domain.com` with your actual domain in the webhook URL
-   * Visit `https://your-domain.com/bot.php?setup` to configure the webhook
+   ```
+   curl -F "url=https://your-server.com/your-bot.php" https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook
+   ```
 
 ### Short.io Setup
 
