@@ -24,7 +24,7 @@ A PHP-based Telegram bot that creates short URLs using the Short.io API. Users c
 
 1. Clone the repository or download the source code:
 ```bash
-git clone [repository-url]
+git clone https://github.com/GitShikari/php-shortio-tg-bot
 cd telegram-url-shortener
 ```
 
@@ -81,12 +81,9 @@ return [
 Example conversation:
 ```
 User: /start
-Bot: Hello! Send the originalURL first, then send the path!
+Bot: Hello! Send me a link, and I'll shorten it for you.
 
 User: https://www.example.com/very/long/url/that/needs/shortening
-Bot: Got the original URL. Now send the path!
-
-User: custom-path
 Bot: Short URL: https://h04d.short.gy/custom-path
 ```
 
