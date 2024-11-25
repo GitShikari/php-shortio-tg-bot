@@ -93,9 +93,6 @@ Bot: Short URL: https://h04d.short.gy/custom-path
 ```
 telegram-url-shortener/
 ├── bot.php              # Main bot file
-├── config.php           # Configuration file
-├── composer.json        # Composer dependencies
-├── vendor/              # Composer packages
 └── README.md           # This file
 ```
 
